@@ -16,7 +16,7 @@ function RunningTimes({entryStation, exitStation}) {
                     params: {
                         "entry_station": entryStation,
                         "exit_station": exitStation,
-                        "order": "xit_time.desc"
+                        "order": "exit_time.desc"
                     },
                     signal,
                 })
