@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@patternfly/react-core": "^4.239.0",
+    "@patternfly/react-icons": "^4.90.0",
     "@patternfly/react-table": "^4.108.0",
     "@tanstack/react-query": "^4.5.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -16,6 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "urlcat": "^2.0.4",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -42,6 +44,11 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {},
-  "proxy": "http://archiver-prod/pgrst/"
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "bracketSameLine": true
+  }
 }
